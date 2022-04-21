@@ -10,42 +10,43 @@
 </head>
 
 <body>
-    <div class="datos">
+
+    <div class="recuadro">
+
+    <form class="formulario">
         <p>Datos del Comprador</p>
-    </div>
-    <div class="nombre">
-        <label for="nombre">Nombre</label>
-        <input class="formaColor" type="text" id="nombre" required placeholder="Escribe tu nombre completo">
-    </div>
-    <div class="email">
-        <label for="email">Email</label>
-        <input class="formaColor" type="emai" id="email" required placeholder="ejemplo@um.es">
-    </div>
-    <div class="telefono">
-        <label for="telefono">Teléfono</label>
-        <input class="formaColor" type="number" id="telefono" required placeholder="Ej. +34668899999">
-    </div>
-    <div class="pais">
-        <label for="pais">País</label>
-        <input class="formaColor" type="text" id="pais" required placeholder="">
-    </div>
 
-    <div class="datos2">
+        <div class="espaciado">
+        <label>Nombre</label>
+        <input type="text" id="nombre" required placeholder="Escribe tu nombre completo">
+    <br>
+         <label>Email</label>
+        <input type="email" id="email" required placeholder="ejemplo@um.es">
+    <br>
+        <label>Teléfono</label>
+        <input type="number" id="telefono" required placeholder="Ej. +34668899999">
+    <br>
+        <label for="">País</label>
+        <input type="text" id="pais" required placeholder="México">
+        </div>
+
         <p>Datos de la tarjeta de crédito y débito</p>
-    </div>
-    <div class="numero2">
-        <label for="numero2">Número</label>
-        <input class="formaColor" type="number" id="numero2" required placeholder="Ej 5555-4444-3333-2222" max="16">
-    </div>
-    <div class="nombre2">
-        <label for="nombre2">Nombre</label>
-        <input class="formaColor" type="text" id="nombre2" required placeholder="Nombre del titular">
-    </div>
-
-    <div class="enviar">
-        <input type="submit" value="Confirmar pedido">
+    <div class="espaciado">
+          
+        <label for="">Número</label>
+        <input type="number" id="numerotarjeta" required placeholder="Ej 5555-4444-3333-2222" max="16">
+    <br>
+        <label for="">Nombre</label>
+        <input type="text" id="titulartarjeta" required placeholder="Nombre del titular">
     </div>
 
+<div class="seccionboton"> 
+    <input class="boton" type="submit" value="Confirmar pedido">
+</div>
+
+</div>
+
+</form>
 </body>
 
 </html>
