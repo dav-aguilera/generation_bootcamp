@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    font-family: "Inter";
+}
+
+
+.img-logo {
+    width: 200px;
+    height: 50px;
+    object-fit: cover;
+}
+
+/*Carrousel*/
+div > img {
+    height: calc(100vh - 77px);
+    object-fit: cover;
+    object-position: center;
+}
