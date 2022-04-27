@@ -2,6 +2,7 @@
 
 *{
     font-family: "Inter";
+    
 }
 
 
@@ -12,8 +13,16 @@
 }
 
 /*Carrousel*/
-div > img {
-    height: calc(100vh - 77px);
+#carousel {
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+/*Imagenes*/
+.img-card{
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     object-position: center;
 }
